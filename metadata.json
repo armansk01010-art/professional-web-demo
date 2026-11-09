@@ -1,0 +1,6 @@
+{
+  "name": "FORME ATELIER - Architecture & Interior Design Studio",
+  "description": "FORME ATELIER is a contemporary architecture and interior design practice crafting calm, tactile spaces defined by spatial purity, natural materiality, and quiet luxury.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
