@@ -119,7 +119,7 @@ export const ProcessPage: React.FC<ProcessPageProps> = ({ onNavigate, onOpenInqu
 
             <div className="lg:col-span-6 aspect-[4/3] bg-[#333333] overflow-hidden">
               <img
-                src="/src/assets/images/detail_stone_materiality_1794376526401.jpg"
+                src="/images/detail_stone_materiality.jpg"
                 alt="1:1 physical sample mock-up of honed travertine stone, fluted oak joinery, raw linen, and patinated bronze"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

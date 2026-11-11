@@ -24,7 +24,7 @@ export const SERVICES: Service[] = [
       'Full technical specification schedules for contractor procurement'
     ],
     idealFor: 'Private homeowners, penthouse collectors, and residential patrons seeking an enduring, architecturally cohesive living environment.',
-    image: '/src/assets/images/project_ivory_residence_1794222045437.jpg',
+    image: '/images/project_ivory_residence.jpg',
     imageAlt: 'Residential interior design featuring honed travertine plinth and curved bouclé seating'
   },
   {
@@ -50,7 +50,7 @@ export const SERVICES: Service[] = [
       'Periodic construction administration and defect rectification tracking'
     ],
     idealFor: 'Creative agencies, progressive family offices, executive headquarters, boutique hotel suites, and design galleries.',
-    image: '/src/assets/images/project_atelier_workspace_1794222045719.jpg',
+    image: '/images/project_atelier_workspace.jpg',
     imageAlt: 'Commercial workspace design featuring large communal timber drafting table and limestone material wall'
   },
   {
@@ -76,7 +76,7 @@ export const SERVICES: Service[] = [
       'Weekly architectural site supervision during critical casting phases'
     ],
     idealFor: 'Patrons developing private family residences, rural retreats, vineyard outposts, or boutique institutional pavilions.',
-    image: '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
+    image: '/images/project_quiet_retreat.jpg',
     imageAlt: 'Contextual architecture villa in the mountain mist with cantilevered basalt slabs and reflecting pool'
   },
   {
@@ -100,7 +100,7 @@ export const SERVICES: Service[] = [
       'Actionable recommendations roadmap for project execution'
     ],
     idealFor: 'Prospective property buyers, collectors evaluating renovations, and clients seeking expert architectural direction prior to procurement.',
-    image: '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
+    image: '/images/detail_stone_materiality.jpg',
     imageAlt: 'Architectural design consultation material tray with travertine, white oak, and living bronze'
   }
 ];

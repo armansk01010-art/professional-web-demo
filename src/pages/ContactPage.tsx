@@ -298,7 +298,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
             <div className="bg-[#EAE7E0]/40 border border-[#EAE7E0] overflow-hidden">
               <div className="aspect-[16/9] bg-[#EAE7E0] overflow-hidden">
                 <img
-                  src="/src/assets/images/project_atelier_workspace_1794222045719.jpg"
+                  src="/images/project_atelier_workspace.jpg"
                   alt="FORME ATELIER studio workspace and material library in Lower Parel, Mumbai"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

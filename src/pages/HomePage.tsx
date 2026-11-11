@@ -56,7 +56,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
         {/* Hero Architectural Image Anchor */}
         <div className="relative w-full aspect-[16/9] overflow-hidden bg-[#EAE7E0] group">
           <img
-            src="/src/assets/images/hero_forme_architecture_1794222044914.jpg"
+            src="/images/hero_forme_architecture.jpg"
             alt="The Oak House - Monolithic architecture embedded in the landscape by FORME ATELIER"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-1000 ease-out"
@@ -168,8 +168,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
                 <div className="space-y-4">
                   <div className="aspect-[4/5] bg-[#DDD8CE] overflow-hidden">
                     <img
-                      src="/src/assets/images/project_ivory_residence_1794222045437.jpg"
-                      alt="The Ivory Residence living space"
+                      src="/images/project_ivory_residence.jpg"
+                      alt="The Ivory Residence living space in Worli, Mumbai"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover hover:scale-103 transition-transform duration-700"
                     />
@@ -200,7 +200,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
                   </div>
                   <div className="aspect-[4/5] bg-[#DDD8CE] overflow-hidden">
                     <img
-                      src="/src/assets/images/detail_stone_materiality_1794376526401.jpg"
+                      src="/images/detail_stone_materiality.jpg"
                       alt="Material Laboratory tactile stone, oak, and bronze study"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover hover:scale-103 transition-transform duration-700"

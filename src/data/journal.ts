@@ -8,7 +8,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'October 18, 2025',
     readTime: '6 min read',
     category: 'Philosophy',
-    image: '/src/assets/images/project_ivory_residence_1794222045437.jpg',
+    image: '/images/project_ivory_residence.jpg',
     excerpt: 'In an era of relentless sensory stimulation, true luxury is no longer defined by excess, but by the conscious editing away of distraction.',
     keyQuote: 'True luxury is the presence of calm and the absence of visual noise. When unnecessary ornament is stripped away, human presence expands.',
     paragraphs: [
@@ -25,7 +25,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'August 14, 2025',
     readTime: '5 min read',
     category: 'Materiality',
-    image: '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
+    image: '/images/detail_stone_materiality.jpg',
     excerpt: 'Why synthetic perfection will never rival the sensory depth of natural stone, hand-rubbed timber, and living metals that age with grace.',
     keyQuote: 'A material that does not age gracefully is an architectural liability. We design for the way a surface will feel in thirty years, not just thirty minutes after handover.',
     paragraphs: [
@@ -42,7 +42,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'June 02, 2025',
     readTime: '7 min read',
     category: 'Architecture',
-    image: '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
+    image: '/images/project_quiet_retreat.jpg',
     excerpt: 'Exploring how deep overhangs, textured lime plasters, and controlled apertures transform harsh tropical sunlight into meditative poetry.',
     keyQuote: 'We do not merely design for light; we design for shadow. Without darkness, light has no emotional weight.',
     paragraphs: [
@@ -59,7 +59,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'April 22, 2025',
     readTime: '4 min read',
     category: 'Workspace',
-    image: '/src/assets/images/project_atelier_workspace_1794222045719.jpg',
+    image: '/images/project_atelier_workspace.jpg',
     excerpt: 'Why physical material libraries, communal drafting tables, and acoustic tranquility produce superior creative work than screen-bound isolation.',
     keyQuote: 'Creative thinking requires physical friction. When teams can spread drawings across timber and touch real stone, ideas gain grounded conviction.',
     paragraphs: [

@@ -10,12 +10,12 @@ export const PROJECTS: Project[] = [
     location: 'Worli, Mumbai',
     year: '2025 Concept',
     area: '4,800 sq.ft.',
-    coverImage: '/src/assets/images/project_ivory_residence_1794222045437.jpg',
+    coverImage: '/images/project_ivory_residence.jpg',
     galleryImages: [
-      '/src/assets/images/project_ivory_residence_1794222045437.jpg',
-      '/src/assets/images/interior_monolithic_bedroom_1794376528689.jpg',
-      '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
-      '/src/assets/images/hero_forme_architecture_1794222044914.jpg'
+      '/images/project_ivory_residence.jpg',
+      '/images/interior_monolithic_bedroom.jpg',
+      '/images/detail_stone_materiality.jpg',
+      '/images/hero_forme_architecture.jpg'
     ],
     excerpt: 'An introspective sanctuary situated high above the Arabian Sea, stripped of ornamental clutter to amplify daylight, honed travertine monoliths, and organic linen.',
     concept: 'The Ivory Residence explores the acoustic and psychological calm of radical reduction. Rather than imposing artificial ornament, the design relies on geometric massing, deep shadow reveals, and natural materials that patinate gracefully with age. Natural sea breezes filter through floor-to-ceiling sheer linen panels, while monolithic travertine plinths anchor the living spaces in grounded stillness.',
@@ -72,12 +72,12 @@ export const PROJECTS: Project[] = [
     location: 'Koregaon Park, Pune',
     year: '2025 Concept',
     area: '3,200 sq.ft.',
-    coverImage: '/src/assets/images/project_urban_minimal_1794376498114.jpg',
+    coverImage: '/images/project_urban_minimal.jpg',
     galleryImages: [
-      '/src/assets/images/project_urban_minimal_1794376498114.jpg',
-      '/src/assets/images/interior_architectural_kitchen_1794376527966.jpg',
-      '/src/assets/images/project_oak_house_1794222046135.jpg',
-      '/src/assets/images/detail_stone_materiality_1794376526401.jpg'
+      '/images/project_urban_minimal.jpg',
+      '/images/interior_architectural_kitchen.jpg',
+      '/images/project_oak_house.jpg',
+      '/images/detail_stone_materiality.jpg'
     ],
     excerpt: 'A study in restraint within Pune’s tree-lined avenues, crafting a continuous architectural sequence of smoked oak, cast terrazzo, and low-slung seating.',
     concept: 'Urban Minimal investigates how spatial compression and expansion can turn an urban apartment into an urban retreat. By stripping back extraneous corridors and replacing internal walls with sliding timber louvers, the home allows daylight to wash across poured terrazzo planes while preserving zones of quiet intimacy.',
@@ -134,12 +134,12 @@ export const PROJECTS: Project[] = [
     location: 'Gangapur Hills, Nashik',
     year: '2024 Concept',
     area: '6,400 sq.ft.',
-    coverImage: '/src/assets/images/hero_forme_architecture_1794222044914.jpg',
+    coverImage: '/images/hero_forme_architecture.jpg',
     galleryImages: [
-      '/src/assets/images/hero_forme_architecture_1794222044914.jpg',
-      '/src/assets/images/project_oak_house_1794222046135.jpg',
-      '/src/assets/images/interior_architectural_kitchen_1794376527966.jpg',
-      '/src/assets/images/interior_monolithic_bedroom_1794376528689.jpg'
+      '/images/hero_forme_architecture.jpg',
+      '/images/project_oak_house.jpg',
+      '/images/interior_architectural_kitchen.jpg',
+      '/images/interior_monolithic_bedroom.jpg'
     ],
     excerpt: 'Anchored into rugged basalt slopes, this concept residence merges rammed earth, fluted timber screens, and broad cantilevered roofs that shade private internal courtyards.',
     concept: 'The Oak House addresses the dramatic microclimate of the Nashik hills: intense dry midday sun followed by cool mountain nights. Broad horizontal roof overhangs protect glazed pavilions from direct solar gain, while heavy thermal basalt masses store diurnal heat and release it gently after dusk.',
@@ -196,12 +196,12 @@ export const PROJECTS: Project[] = [
     location: 'Lower Parel, Mumbai',
     year: '2025 Concept',
     area: '5,600 sq.ft.',
-    coverImage: '/src/assets/images/project_atelier_workspace_1794222045719.jpg',
+    coverImage: '/images/project_atelier_workspace.jpg',
     galleryImages: [
-      '/src/assets/images/project_atelier_workspace_1794222045719.jpg',
-      '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
-      '/src/assets/images/project_urban_minimal_1794376498114.jpg',
-      '/src/assets/images/interior_architectural_kitchen_1794376527966.jpg'
+      '/images/project_atelier_workspace.jpg',
+      '/images/detail_stone_materiality.jpg',
+      '/images/project_urban_minimal.jpg',
+      '/images/interior_architectural_kitchen.jpg'
     ],
     excerpt: 'An adaptive reuse concept for a creative agency within Mumbai’s historic mill district, built around long communal oak workbenches and a floor-to-ceiling stone material library.',
     concept: 'Atelier Workspace reframes the corporate workplace as a craft guild workshop. In an era dominated by screens, this studio prioritizes tactile engagement: physical scale models, large material lay-out tables, and acoustic tranquility that encourages focused group collaboration without visual cacophony.',
@@ -258,12 +258,12 @@ export const PROJECTS: Project[] = [
     location: 'Khandala Ghats, Lonavala',
     year: '2024 Concept',
     area: '7,200 sq.ft.',
-    coverImage: '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
+    coverImage: '/images/project_quiet_retreat.jpg',
     galleryImages: [
-      '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
-      '/src/assets/images/interior_monolithic_bedroom_1794376528689.jpg',
-      '/src/assets/images/hero_forme_architecture_1794222044914.jpg',
-      '/src/assets/images/detail_stone_materiality_1794376526401.jpg'
+      '/images/project_quiet_retreat.jpg',
+      '/images/interior_monolithic_bedroom.jpg',
+      '/images/hero_forme_architecture.jpg',
+      '/images/detail_stone_materiality.jpg'
     ],
     excerpt: 'Rising from dense cliffside flora, this architectural retreat creates a sequence of stepped stone terraces, a sunken hearth, and open-air monsoon bathing pools.',
     concept: 'Designed to honor the dramatic rainfall and mist cycles of the Western Ghats, The Quiet Retreat utilizes concrete cantilever planes and stone gabions that age gracefully with moss and lichens. Spaces transition seamlessly between enclosed glass observation lounges and sheltered outdoor terraces.',
@@ -320,12 +320,12 @@ export const PROJECTS: Project[] = [
     location: 'Indiranagar, Bengaluru',
     year: '2025 Concept',
     area: '3,900 sq.ft.',
-    coverImage: '/src/assets/images/project_modern_living_1794376499486.jpg',
+    coverImage: '/images/project_modern_living.jpg',
     galleryImages: [
-      '/src/assets/images/project_modern_living_1794376499486.jpg',
-      '/src/assets/images/interior_architectural_kitchen_1794376527966.jpg',
-      '/src/assets/images/interior_monolithic_bedroom_1794376528689.jpg',
-      '/src/assets/images/detail_stone_materiality_1794376526401.jpg'
+      '/images/project_modern_living.jpg',
+      '/images/interior_architectural_kitchen.jpg',
+      '/images/interior_monolithic_bedroom.jpg',
+      '/images/detail_stone_materiality.jpg'
     ],
     excerpt: 'An urban duplex celebrating vertical spatial volume, framed around an internal bamboo courtyard, tactile clay wall finishes, and custom bronze lighting.',
     concept: 'Modern Living explores the vertical dimension of contemporary Bangalore living. Rather than sealing off the home from the surrounding garden city, a two-story internal light well brings sky, rain, and greenery directly into the core of daily domestic routines.',
