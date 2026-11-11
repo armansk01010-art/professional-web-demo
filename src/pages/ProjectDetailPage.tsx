@@ -124,7 +124,8 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
         >
           <img
             src={project.coverImage}
-            alt={`${project.title} master architectural perspective`}
+            alt={`${project.title} master architectural perspective in ${project.location}`}
+            loading="eager"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700 ease-out"
           />
@@ -217,7 +218,8 @@ export const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({
             >
               <img
                 src={imgUrl}
-                alt={`${project.title} study plate ${index + 1}`}
+                alt={`${project.title} architectural study plate ${index + 1}`}
+                loading="lazy"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-104 transition-transform duration-700 ease-out"
               />

@@ -200,8 +200,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
                   </div>
                   <div className="aspect-[4/5] bg-[#DDD8CE] overflow-hidden">
                     <img
-                      src="/src/assets/images/project_atelier_workspace_1794222045719.jpg"
-                      alt="Atelier workspace craft study"
+                      src="/src/assets/images/detail_stone_materiality_1794376526401.jpg"
+                      alt="Material Laboratory tactile stone, oak, and bronze study"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover hover:scale-103 transition-transform duration-700"
                     />
@@ -244,7 +244,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
               <div className="relative aspect-[4/3] bg-[#EAE7E0] overflow-hidden mb-5">
                 <img
                   src={project.coverImage}
-                  alt={project.title}
+                  alt={`${project.title} - ${project.subtitle} in ${project.location}`}
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
                 />
@@ -447,7 +448,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenInquiry })
                   <div className="aspect-[16/9] bg-[#EAE7E0] overflow-hidden mb-6">
                     <img
                       src={article.image}
-                      alt={article.title}
+                      alt={`${article.title} - Architectural insights monograph`}
+                      loading="lazy"
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700"
                     />

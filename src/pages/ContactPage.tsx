@@ -295,13 +295,22 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
           {/* Studio Contact Info Column */}
           <div className="lg:col-span-5 space-y-8">
             {/* Atelier Addresses */}
-            <div className="bg-[#EAE7E0]/40 border border-[#EAE7E0] p-8">
-              <span className="text-xs uppercase tracking-widest text-[#A69B8B] block mb-2 font-medium">
-                Physical Ateliers
-              </span>
-              <h2 className="font-editorial-heading text-3xl text-[#292929] mb-6">
-                Our Locations
-              </h2>
+            <div className="bg-[#EAE7E0]/40 border border-[#EAE7E0] overflow-hidden">
+              <div className="aspect-[16/9] bg-[#EAE7E0] overflow-hidden">
+                <img
+                  src="/src/assets/images/project_atelier_workspace_1794222045719.jpg"
+                  alt="FORME ATELIER studio workspace and material library in Lower Parel, Mumbai"
+                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-8">
+                <span className="text-xs uppercase tracking-widest text-[#A69B8B] block mb-2 font-medium">
+                  Physical Ateliers
+                </span>
+                <h2 className="font-editorial-heading text-3xl text-[#292929] mb-6">
+                  Our Locations
+                </h2>
 
               <div className="space-y-6 text-xs text-[#54524E]">
                 <div className="pb-6 border-b border-[#DDD8CE]">
@@ -329,8 +338,9 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
                 </div>
               </div>
             </div>
+          </div>
 
-            {/* Direct Channels */}
+          {/* Direct Channels */}
             <div className="bg-white border border-[#EAE7E0] p-8 text-xs text-[#54524E] space-y-4">
               <span className="text-xs uppercase tracking-widest text-[#A69B8B] block mb-1 font-medium">
                 Direct Channels

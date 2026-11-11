@@ -74,7 +74,7 @@ export const JournalDetailPage: React.FC<JournalDetailPageProps> = ({
         <div className="aspect-[16/10] bg-[#EAE7E0] overflow-hidden mb-12">
           <img
             src={article.image}
-            alt={article.title}
+            alt={`${article.title} - Architectural perspective and materiality study`}
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
           />

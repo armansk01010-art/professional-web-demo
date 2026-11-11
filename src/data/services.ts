@@ -23,7 +23,9 @@ export const SERVICES: Service[] = [
       'Detailed mechanical, electrical, and plumbing (MEP) coordination sets',
       'Full technical specification schedules for contractor procurement'
     ],
-    idealFor: 'Private homeowners, penthouse collectors, and residential patrons seeking an enduring, architecturally cohesive living environment.'
+    idealFor: 'Private homeowners, penthouse collectors, and residential patrons seeking an enduring, architecturally cohesive living environment.',
+    image: '/src/assets/images/project_ivory_residence_1794222045437.jpg',
+    imageAlt: 'Residential interior design featuring honed travertine plinth and curved bouclé seating'
   },
   {
     id: 'commercial-interiors',
@@ -47,7 +49,9 @@ export const SERVICES: Service[] = [
       'Contractor tender documentation and contractor evaluation matrix',
       'Periodic construction administration and defect rectification tracking'
     ],
-    idealFor: 'Creative agencies, progressive family offices, executive headquarters, boutique hotel suites, and design galleries.'
+    idealFor: 'Creative agencies, progressive family offices, executive headquarters, boutique hotel suites, and design galleries.',
+    image: '/src/assets/images/project_atelier_workspace_1794222045719.jpg',
+    imageAlt: 'Commercial workspace design featuring large communal timber drafting table and limestone material wall'
   },
   {
     id: 'architecture',
@@ -71,7 +75,9 @@ export const SERVICES: Service[] = [
       'Comprehensive construction drawings, wall sections, and envelope details',
       'Weekly architectural site supervision during critical casting phases'
     ],
-    idealFor: 'Patrons developing private family residences, rural retreats, vineyard outposts, or boutique institutional pavilions.'
+    idealFor: 'Patrons developing private family residences, rural retreats, vineyard outposts, or boutique institutional pavilions.',
+    image: '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
+    imageAlt: 'Contextual architecture villa in the mountain mist with cantilevered basalt slabs and reflecting pool'
   },
   {
     id: 'design-consultation',
@@ -93,6 +99,8 @@ export const SERVICES: Service[] = [
       'Redlined spatial optimization plans identifying circulation bottlenecks',
       'Actionable recommendations roadmap for project execution'
     ],
-    idealFor: 'Prospective property buyers, collectors evaluating renovations, and clients seeking expert architectural direction prior to procurement.'
+    idealFor: 'Prospective property buyers, collectors evaluating renovations, and clients seeking expert architectural direction prior to procurement.',
+    image: '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
+    imageAlt: 'Architectural design consultation material tray with travertine, white oak, and living bronze'
   }
 ];

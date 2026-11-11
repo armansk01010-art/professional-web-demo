@@ -71,8 +71,20 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate, onOpenIn
                   </button>
                 </div>
 
-                {/* Right Column: Scope Breakdown & Deliverables */}
+                {/* Right Column: Service Image, Scope Breakdown & Deliverables */}
                 <div className="lg:col-span-7 space-y-8">
+                  {/* Service Architectural Photography Anchor */}
+                  {service.image && (
+                    <div className="aspect-[16/9] bg-[#EAE7E0] overflow-hidden border border-[#EAE7E0]">
+                      <img
+                        src={service.image}
+                        alt={service.imageAlt || `${service.title} architectural study by FORME ATELIER`}
+                        referrerPolicy="no-referrer"
+                        className="w-full h-full object-cover hover:scale-102 transition-transform duration-700 ease-out"
+                      />
+                    </div>
+                  )}
+
                   {/* Detailed Scope of Work */}
                   <div className="bg-white border border-[#EAE7E0] p-6 sm:p-8">
                     <h3 className="text-xs uppercase tracking-widest text-[#292929] font-semibold mb-6 flex items-center justify-between">

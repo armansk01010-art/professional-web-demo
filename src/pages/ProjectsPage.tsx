@@ -77,7 +77,8 @@ export const ProjectsPage: React.FC<ProjectsPageProps> = ({ onNavigate, onOpenIn
               <div className="relative aspect-[4/3] bg-[#EAE7E0] overflow-hidden mb-5">
                 <img
                   src={project.coverImage}
-                  alt={project.title}
+                  alt={`${project.title} - ${project.subtitle} in ${project.location}`}
+                  loading="lazy"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
                 />

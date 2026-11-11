@@ -25,7 +25,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'August 14, 2025',
     readTime: '5 min read',
     category: 'Materiality',
-    image: '/src/assets/images/project_oak_house_1794222046135.jpg',
+    image: '/src/assets/images/detail_stone_materiality_1794376526401.jpg',
     excerpt: 'Why synthetic perfection will never rival the sensory depth of natural stone, hand-rubbed timber, and living metals that age with grace.',
     keyQuote: 'A material that does not age gracefully is an architectural liability. We design for the way a surface will feel in thirty years, not just thirty minutes after handover.',
     paragraphs: [
@@ -42,7 +42,7 @@ export const JOURNAL_ARTICLES: JournalArticle[] = [
     date: 'June 02, 2025',
     readTime: '7 min read',
     category: 'Architecture',
-    image: '/src/assets/images/hero_forme_architecture_1794222044914.jpg',
+    image: '/src/assets/images/project_quiet_retreat_1794376498933.jpg',
     excerpt: 'Exploring how deep overhangs, textured lime plasters, and controlled apertures transform harsh tropical sunlight into meditative poetry.',
     keyQuote: 'We do not merely design for light; we design for shadow. Without darkness, light has no emotional weight.',
     paragraphs: [

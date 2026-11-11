@@ -63,7 +63,8 @@ export const JournalPage: React.FC<JournalPageProps> = ({ onNavigate }) => {
             <div className="lg:col-span-7 aspect-[16/10] bg-[#EAE7E0] overflow-hidden">
               <img
                 src={JOURNAL_ARTICLES[0].image}
-                alt={JOURNAL_ARTICLES[0].title}
+                alt={`${JOURNAL_ARTICLES[0].title} - Architectural monograph illustration`}
+                loading="lazy"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover group-hover:scale-102 transition-transform duration-700 ease-out"
               />
@@ -107,7 +108,8 @@ export const JournalPage: React.FC<JournalPageProps> = ({ onNavigate }) => {
                 <div className="aspect-[16/10] bg-[#EAE7E0] overflow-hidden mb-6">
                   <img
                     src={article.image}
-                    alt={article.title}
+                    alt={`${article.title} - Architectural monograph illustration`}
+                    loading="lazy"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700 ease-out"
                   />

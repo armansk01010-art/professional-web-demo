@@ -52,6 +52,8 @@ export interface Service {
   scope: string[];
   deliverables: string[];
   idealFor: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export interface JournalArticle {

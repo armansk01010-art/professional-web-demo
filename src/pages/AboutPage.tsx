@@ -172,8 +172,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenInquiry 
             <div className="bg-white border border-[#EAE7E0] p-6 sm:p-8">
               <div className="aspect-[4/3] bg-[#EAE7E0] overflow-hidden mb-6">
                 <img
-                  src="/src/assets/images/project_atelier_workspace_1794222045719.jpg"
-                  alt="Arjun Somani"
+                  src="/src/assets/images/portrait_arjun_somani_1794376500966.jpg"
+                  alt="Arjun Somani, Founding Partner & Studio Director at FORME ATELIER"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top"
                 />
@@ -195,8 +195,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenInquiry 
             <div className="bg-white border border-[#EAE7E0] p-6 sm:p-8">
               <div className="aspect-[4/3] bg-[#EAE7E0] overflow-hidden mb-6">
                 <img
-                  src="/src/assets/images/project_ivory_residence_1794222045437.jpg"
-                  alt="Kavita Menon"
+                  src="/src/assets/images/portrait_kavita_menon_1794376501031.jpg"
+                  alt="Kavita Menon, Partner & Lead Interior Architect at FORME ATELIER"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                 />
@@ -218,8 +218,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenInquiry 
             <div className="bg-white border border-[#EAE7E0] p-6 sm:p-8">
               <div className="aspect-[4/3] bg-[#EAE7E0] overflow-hidden mb-6">
                 <img
-                  src="/src/assets/images/project_oak_house_1794222046135.jpg"
-                  alt="Devang Varma"
+                  src="/src/assets/images/portrait_devang_varma_1794376526884.jpg"
+                  alt="Devang Varma, Partner & Principal Architect at FORME ATELIER"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
                 />
