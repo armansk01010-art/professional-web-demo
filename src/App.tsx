@@ -3,6 +3,7 @@ import { Page } from './types';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { InquiryModal } from './components/InquiryModal';
+import { FloatingWhatsAppButton } from './components/FloatingWhatsAppButton';
 
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
@@ -173,6 +174,9 @@ export default function App() {
         initialService={inquiryInitialService}
         initialProject={inquiryInitialProject}
       />
+
+      {/* Global Floating WhatsApp Entry Button */}
+      <FloatingWhatsAppButton />
     </div>
   );
 }
